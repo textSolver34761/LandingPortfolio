@@ -1,0 +1,9 @@
+/* Mobile */
+@media (max-width: 640px) {
+  *{
+      height: 50%;
+      flex-direction: column;
+      max-width: 80vw;
+  }
+}
+

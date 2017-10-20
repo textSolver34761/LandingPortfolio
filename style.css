@@ -1,0 +1,55 @@
+body{
+    margin: 0 auto;
+}
+
+#example1{
+    height:150px;
+}
+
+#compteur{
+    border:double;
+    border-color: white;
+    height: 110px;
+}
+.right{
+    justify-content: flex-end;
+    display: inline-flex;
+    flex:2;
+}
+.left{
+    justify-content: flex-start;
+    display: inline-flex;
+    flex:2;
+}
+.boutton{
+    display: flex;
+}
+.ui.progress .bar.height{
+    height: 100%;
+    width: 100%;
+}
+.center{
+    justify-content: center;
+    display: inline-flex;
+    flex:2;
+}
+p {
+    text-align: center;
+    font-size: 60px;
+  }
+.bgimg{
+    background-image: url(feuxartifices.jpg);
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 25px;
+}
+.data{
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    text-align: center;
+    font-size: 60px;
+}
