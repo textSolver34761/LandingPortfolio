@@ -13,7 +13,7 @@
         <div class="bgimg">
             <header>
             <div class="boutton">
-                <div class="left"><input class="ui big red button"  type="button" value="Contactez-moi" href="form.html" > <!-- </div> <div class="right"><input class="ui big red button" type="button" value="Inscrivez-vous à la newsletter"></div> -->
+                <div class="left"><a href="form.html"><input class="ui big red button" type="button" value="Contactez-moi"></a> </div> <div class="right"><input class="ui big red button" type="button" value="Inscrivez-vous à la newsletter"></div>
             </div>
             </header>
             <br>
@@ -21,11 +21,11 @@
             <br>
             <div class="ui indicating progress" data-percent="100%" id="example1">
                 <div class="bar height"></div> <br>
-                <div class= "data">progress</div>
+                <div class= "data" id="example2"></div>
             </div>
             <br>
             <div id="compteur">
-                <p id="compte_a_rebours"></p> 
+                <p id="compte_a_rebours" ></p> 
             </div>
             <br>
             <br>
@@ -39,9 +39,12 @@
                             <div class="right"><a href="https://twitter.com/benjamin_pradon"> <img scr="twitter.jpg" alt="logo twitter"> </a> </div>
                     </div>
             </footer>
-            <script src="re.js"></script>
-            <script type="text/javascript" src="semantic.js"></script>
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        </div>
+            <script src="semantic.js"></script>
+            <script src="re.js"></script>
+            <script>
+                    document.getElementById("example2").innerHTML = (progress + '%');
+            </script>
+    </div>
     </body>
 </html>

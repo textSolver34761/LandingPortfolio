@@ -53,3 +53,13 @@ p {
     text-align: center;
     font-size: 60px;
 }
+.bgimg2{
+    background-image: url(image2.png);
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: black;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 25px;
+}
