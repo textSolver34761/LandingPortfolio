@@ -58,7 +58,7 @@ function compte_a_rebours(){
     else{
         compte_a_rebours.innerHTML = 'Project Realised!';
     }
-    progress = ((date_actuelle.getDay() - date_debut.getDay()) + (date_evenement.getDay() - date_actuelle.getDay())) * 100 / jours ;
+    progress = Math.round(((date_actuelle.getDay() - date_debut.getDay()) + (date_evenement.getDay() - date_actuelle.getDay())) * 100 / jours);
     var actualisation = setTimeout("compte_a_rebours();", 1000);
 }
 compte_a_rebours();
